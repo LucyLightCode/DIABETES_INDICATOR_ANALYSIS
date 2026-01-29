@@ -18,69 +18,54 @@ The workflow includes:
 
 ---
 
+# 🩺 Diabetes Indicator Analysis
+
+This project analyzes health indicators to predict diabetes status using machine learning models. The goal is to explore health-related features and evaluate classification models that can assist in early diabetes risk detection.
+
+---
+
+## 📌 Project Overview
+
+Diabetes is a chronic disease that requires early identification for effective management. This project applies data analysis and machine learning techniques to identify patterns in health indicators and predict whether an individual is diabetic.
+
+The workflow includes:
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Model training and evaluation
+- Interpretation of results
+
+---
+
 ## 📁 Dataset
 
-The dataset used in this project consists of health indicator features and a corresponding diabetes outcome label indicating whether an individual has diabetes. Key attributes typically include:
-- Glucose level
-- Blood pressure
-- Body mass index (BMI)
-- Age
-- Other health and lifestyle indicators
-
-*(If your notebook used a specific dataset file, you should describe it here and link to its source.)*
+The dataset contains health-related indicators and a binary target variable indicating diabetes status. Features include medical and lifestyle-related variables such as BMI, age, and other health measurements.
 
 ---
 
 ## 🛠️ Tools & Libraries
 
-| Category | Tools / Libraries |
-|----------|--------------------|
-| Environment | Python, Jupyter Notebook |
-| Data Handling | pandas, numpy |
-| Visualization | matplotlib, seaborn |
-| Modeling | scikit-learn (Random Forest, KNN, etc.) |
+- **Programming Language:** Python  
+- **Data Analysis:** pandas, numpy  
+- **Visualization:** matplotlib, seaborn  
+- **Machine Learning:** scikit-learn  
+- **App Framework:** Streamlit (for future deployment)
 
 ---
 
 ## 🧠 Methodology
 
-1. **Load and preprocess data**  
-   - Handle missing values  
-   - Ensure correct datatypes  
-
-2. **Exploratory Data Analysis (EDA)**  
-   - Visualize feature distributions  
-   - Examine class balance  
-
-3. **Train machine learning models**  
-   - Random Forest Classifier  
-   - K-Nearest Neighbors (KNN) Classifier  
-
-4. **Evaluate model performance**  
-   - Confusion matrix  
-   - Classification metrics: precision, recall, F1-score, accuracy
+1. Data loading and preprocessing  
+2. Exploratory Data Analysis to understand feature distributions and class balance  
+3. Training classification models (e.g., Random Forest, KNN)  
+4. Model evaluation using accuracy, precision, recall, and F1-score  
 
 ---
 
 ## 📈 Results Summary
 
-**Model Evaluation Metrics (example)**
+The models were evaluated using standard classification metrics. The results show strong performance in predicting non-diabetic cases, with room for improvement in identifying diabetic cases, likely due to class imbalance.
 
-| Metric                | Value |
-|----------------------|------:|
-| Accuracy             | 0.84  |
-| Precision (No Diabetes) | 0.91  |
-| Precision (Diabetes)     | 0.26 |
-| Macro Avg F1-Score    | (include if available) |
-
-The model shows strong performance for predicting individuals **without diabetes**, but lower precision on the diabetes class, indicating class imbalance or that the model may need tuning.
-
-
----
-
-## 📊 Confusion Matrix Summary
-
-This project calculated the confusion matrix and performance metrics including accuracy and F1-score for diabetes prediction. These results help understand how well the model distinguishes between classes.
+These findings highlight the importance of further tuning and balancing techniques to improve predictive performance.
 
 ---
 
