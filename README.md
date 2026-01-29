@@ -1,4 +1,4 @@
-# 🩺 Diabetes Indicator Analysis
+# 🩺 Diabetes Health Indicator Analysis
 
 This project analyzes health indicators to build machine learning models that predict whether an individual has diabetes based on survey and health metric data.
 
@@ -75,7 +75,6 @@ The dataset used in this project consists of health indicator features and a cor
 
 The model shows strong performance for predicting individuals **without diabetes**, but lower precision on the diabetes class, indicating class imbalance or that the model may need tuning.
 
-> 📌 *Adjust these numbers based on your actual evaluation results.*
 
 ---
 
